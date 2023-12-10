@@ -1,0 +1,28 @@
+// Author: Vishnu Kumar K S
+//Source: CS Dojo
+//Topic: LinkedList basic
+/*public class Node{
+	public static void main(String[] args) {
+		
+		System.out.println("Hello World");	}
+}*/
+
+class Node
+{
+	int data;
+	Node next;
+	Node(int data){
+		this.data = data;
+	}
+	
+	
+    public static void main(String[] args)
+    {
+        System.out.println("My Linked List program.");
+        Node nodeA=new Node(6);
+        Node nodeB=new Node(8);
+        Node nodeC=new Node(10);
+        Node nodeD=new Node(12);
+        
+    }
+}
