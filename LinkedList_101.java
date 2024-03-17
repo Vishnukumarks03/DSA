@@ -13,30 +13,41 @@ public class Linklistvis {
 	}
 	
 	private static Node head;
-
-	public void display(Node n) {
 		
-		Node temp=n;
-		while(temp!=null) {
+public static void addfirst(int data)
+	{
+	    Node current=head;
+		head=new Node(data);
+		head.next=current;
+		
+	}
+	
+	public void display() {
+		
+		//Node temp=n;
+		while(head!=null) {
 			
-			System.out.println(" "+temp.data);
-			temp=temp.next;
+			System.out.println(" "+head.data);
+			head=head.next;
 		}
 	}
 	
 	public static void main(String args[])
 	{
 		System.out.println("Linkedlist");
-		Node n1=new Node(5);
+		head=new Node(5);
 		Node n2=new Node(10);
 		Node n3=new Node(15);
 		Node n4=new Node(20);
-		n1.next=n2;
+		head.next=n2;
 		n2.next=n3;
 		n3.next=n4;
 		Linklistvis link=new Linklistvis();
-		link.display(n1);
+		link.addfirst(35);
+		link.display();
+		
+
+
 		
 	}
 }
-
