@@ -51,3 +51,4 @@ public static void addfirst(int data)
 		
 	}
 }
+//limitation in adding new nodes and it's complex to maintain node creation manually 
