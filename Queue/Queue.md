@@ -7,14 +7,14 @@ Sometimes we enjoy being part of a queue, such as when waiting for a movie. Some
 
  Why linear queue?
  
-     Pros:
+     Pros: Simple to implement
 
-     Cons:
+     Cons: Once space freed up it can't be used later
 
-     Space complexity:
+     Space complexity: O(1)
 
      #will add the comments 
-     Time complexity:
+     Time complexity: O(1)
 
 
 2. Circular queue
